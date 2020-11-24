@@ -1,0 +1,1 @@
+<view class="stretch-box data-v-cda4d974"><view data-event-opts="{{[['tap',[['ClickAuto',['$event']]]]]}}" class="stretch-box-info data-v-cda4d974" bindtap="__e">{{''+Title+''}}<image class="{{['data-v-cda4d974',(ImgRotate)?'rotate':'']}}" src="../../static/images/xl.png" mode></image></view></view>

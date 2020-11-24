@@ -1,0 +1,1 @@
+<view class="{{['btn-box data-v-746171d7',(isBarHeight)?'statusBarHeight':'']}}"><view data-event-opts="{{[['tap',[['FootBtn',['$event']]]]]}}" class="{{['btn data-v-746171d7',(isActive)?'active':'']}}" bindtap="__e">{{BtnName}}</view></view>

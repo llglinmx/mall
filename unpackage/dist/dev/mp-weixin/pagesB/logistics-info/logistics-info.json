@@ -1,0 +1,7 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "title": "/components/title/title",
+    "stretch": "/components/click-stretch/click-stretch"
+  }
+}

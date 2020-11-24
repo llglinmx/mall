@@ -1,0 +1,7 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "title": "/components/title/title",
+    "detalis-list": "/components/details-list/details-list"
+  }
+}

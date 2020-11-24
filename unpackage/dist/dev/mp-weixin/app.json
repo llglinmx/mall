@@ -1,0 +1,115 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/shopping/shopping",
+    "pages/mine/mine"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "goods-details/goods-details",
+        "address-list/address-list",
+        "coupon-list/coupon-list",
+        "order/order",
+        "shopping-collect/shopping-collect",
+        "login/login",
+        "confirm-order/confirm-order",
+        "goods-list/goods-list",
+        "apply-for-refund/apply-for-refund"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "add-address/add-address",
+        "delivery-details/delivery-details",
+        "payment-details/payment-details",
+        "receiving-details/receiving-details",
+        "pay-success/pay-success",
+        "logistics-info/logistics-info",
+        "order-close-details/order-close-details",
+        "evaluate/evaluate",
+        "evaluation-list/evaluation-list",
+        "live/live"
+      ]
+    },
+    {
+      "root": "pagesC",
+      "pages": [
+        "ExtendHome/ExtendHome",
+        "address-page/address-page",
+        "QRcode/QRcode",
+        "search/search",
+        "PromotionTeam/PromotionTeam",
+        "RevenueRecords/RevenueRecords",
+        "Ranking/Ranking",
+        "CashOut/CashOut",
+        "CashSuccess/CashSuccess",
+        "CashRecord/CashRecord",
+        "evaluate-success/evaluate-success"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#666",
+    "selectedColor": "#324B78",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/nav/home.png",
+        "selectedIconPath": "static/images/nav/home-active.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "static/images/nav/sort.png",
+        "selectedIconPath": "static/images/nav/sort-active.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "static/images/nav/shopping.png",
+        "selectedIconPath": "static/images/nav/shopping-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/images/nav/mine.png",
+        "selectedIconPath": "static/images/nav/mine-active.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pagesA"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {
+    "live-player-plugin": {
+      "version": "1.1.8",
+      "provider": "wx2b03c6e691cd7370"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap26.json"
+}

@@ -1,0 +1,8 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "title": "/components/title/title",
+    "search": "/components/search-input/search-input"
+  }
+}

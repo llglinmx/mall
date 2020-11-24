@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "首页",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "disableScroll": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "menu-list": "/components/menu-list/menu-list",
+    "discount-list": "/components/discount-list/discount-list",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "swiper": "/components/swiper/swiper",
+    "good-list": "/components/goods-list/goods-list",
+    "ms-tab": "/components/ms-tabs/ms-tabs"
+  }
+}

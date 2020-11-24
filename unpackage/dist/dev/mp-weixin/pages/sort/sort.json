@@ -1,0 +1,9 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "popup-details": "/components/popup-details/popup-details",
+    "title": "/components/title/title",
+    "loading": "/components/loading/loading"
+  }
+}

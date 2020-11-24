@@ -1,0 +1,8 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "title": "/components/title/title",
+    "address-btn": "/components/footer-btn/foot-btn",
+    "loading": "/components/loading/loading"
+  }
+}

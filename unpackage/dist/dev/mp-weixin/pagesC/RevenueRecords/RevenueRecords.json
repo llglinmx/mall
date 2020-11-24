@@ -1,0 +1,9 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "min-picker": "/components/min-picker/min-picker",
+    "title": "/components/title/title",
+    "min-pop": "/components/min-picker/min-popup"
+  }
+}

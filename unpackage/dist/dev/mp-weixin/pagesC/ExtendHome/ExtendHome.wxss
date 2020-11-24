@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.exend-box.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  background: #f7f7f7;
+}
+.exend-box .exend-box-content.data-v-3fa1a5cd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.exend-box .exend-box-content .exend-box-content-user-info.data-v-3fa1a5cd {
+  padding: 32rpx 32rpx 0;
+  height: 376rpx;
+  margin-top: -1px;
+  background: url("https://dcdn.it120.cc/2020/07/23/f5ef472f-663e-4459-9666-b0845eda550e.png");
+  background-size: contain;
+  box-sizing: border-box;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box .exend-user-info-box-img.data-v-3fa1a5cd {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #2C405A;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box .exend-user-info-box-img image.data-v-3fa1a5cd {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box .exend-user-info-box-wrap.data-v-3fa1a5cd {
+  margin-left: 38rpx;
+  color: #fff;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box .exend-user-info-box-wrap .exend-user-info-title.data-v-3fa1a5cd {
+  font-weight: 500;
+  font-size: 32rpx;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-user-info-box .exend-user-info-box-wrap .exend-user-info-tel.data-v-3fa1a5cd {
+  margin-top: 16rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card.data-v-3fa1a5cd {
+  margin-top: 58rpx;
+  width: 686rpx;
+  height: 235rpx;
+  padding: 32rpx 48rpx;
+  box-sizing: border-box;
+  background: url("https://dcdn.it120.cc/2020/07/23/977a6e5b-66a5-4584-a0c9-9178b17a260c.png");
+  background-size: cover;
+  color: #ECC296;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-top.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-top .exend-box-card-top-text.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-top .exend-box-card-top-text text.data-v-3fa1a5cd {
+  margin-right: 8rpx;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-top .exend-box-card-top-text image.data-v-3fa1a5cd {
+  width: 10rpx;
+  height: 18rpx;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-center.data-v-3fa1a5cd {
+  font-size: 48rpx;
+  font-weight: 600;
+  line-height: 100rpx;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-bottom.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-bottom .exend-box-card-bottom-text.data-v-3fa1a5cd {
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.exend-box .exend-box-content .exend-box-content-user-info .exend-box-card .exend-box-card-bottom .exend-box-card-bottom-text text.data-v-3fa1a5cd {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.exend-box .exend-box-content .exend-box-content-list.data-v-3fa1a5cd {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 40rpx;
+  margin-top: 118rpx;
+  box-sizing: border-box;
+}
+.exend-box .exend-box-content .exend-box-content-list .exend-box-content-list-li.data-v-3fa1a5cd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 320rpx;
+  height: 260rpx;
+  background: #fff;
+  margin-left: 30rpx;
+  margin-bottom: 30rpx;
+  border-radius: 12rpx;
+}
+.exend-box .exend-box-content .exend-box-content-list .exend-box-content-list-li image.data-v-3fa1a5cd {
+  width: 92rpx;
+  height: 92rpx;
+}
+.exend-box .exend-box-content .exend-box-content-list .exend-box-content-list-li text.data-v-3fa1a5cd {
+  margin-top: 36rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #666;
+}
+.exend-box .exend-box-content .exend-box-content-list .exend-box-content-list-li.data-v-3fa1a5cd:nth-child(2n+1) {
+  margin-left: 0 !important;
+}
+

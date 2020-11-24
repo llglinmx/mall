@@ -1,0 +1,221 @@
+/* eslint-disable */
+var provinceData = [{
+	"firstLetter": "b",
+	"id": "110000000000",
+	"jianpin": "bjs",
+	"level": 1,
+	"name": "北京市",
+	"pinyin": "beijingshi"
+}, {
+	"firstLetter": "t",
+	"id": "120000000000",
+	"jianpin": "tjs",
+	"level": 1,
+	"name": "天津市",
+	"pinyin": "tianjinshi"
+}, {
+	"firstLetter": "h",
+	"id": "130000000000",
+	"jianpin": "hbs",
+	"level": 1,
+	"name": "河北省",
+	"pinyin": "hebeisheng"
+}, {
+	"firstLetter": "s",
+	"id": "140000000000",
+	"jianpin": "sxs",
+	"level": 1,
+	"name": "山西省",
+	"pinyin": "shanxisheng"
+}, {
+	"firstLetter": "n",
+	"id": "150000000000",
+	"jianpin": "nmgzzq",
+	"level": 1,
+	"name": "内蒙古自治区",
+	"pinyin": "neimengguzizhiqu"
+}, {
+	"firstLetter": "l",
+	"id": "210000000000",
+	"jianpin": "lns",
+	"level": 1,
+	"name": "辽宁省",
+	"pinyin": "liaoningsheng"
+}, {
+	"firstLetter": "j",
+	"id": "220000000000",
+	"jianpin": "jls",
+	"level": 1,
+	"name": "吉林省",
+	"pinyin": "jilinsheng"
+}, {
+	"firstLetter": "h",
+	"id": "230000000000",
+	"jianpin": "hljs",
+	"level": 1,
+	"name": "黑龙江省",
+	"pinyin": "heilongjiangsheng"
+}, {
+	"firstLetter": "s",
+	"id": "310000000000",
+	"jianpin": "shs",
+	"level": 1,
+	"name": "上海市",
+	"pinyin": "shanghaishi"
+}, {
+	"firstLetter": "j",
+	"id": "320000000000",
+	"jianpin": "jss",
+	"level": 1,
+	"name": "江苏省",
+	"pinyin": "jiangsusheng"
+}, {
+	"firstLetter": "z",
+	"id": "330000000000",
+	"jianpin": "zjs",
+	"level": 1,
+	"name": "浙江省",
+	"pinyin": "zhejiangsheng"
+}, {
+	"firstLetter": "a",
+	"id": "340000000000",
+	"jianpin": "ahs",
+	"level": 1,
+	"name": "安徽省",
+	"pinyin": "anhuisheng"
+}, {
+	"firstLetter": "f",
+	"id": "350000000000",
+	"jianpin": "fjs",
+	"level": 1,
+	"name": "福建省",
+	"pinyin": "fujiansheng"
+}, {
+	"firstLetter": "j",
+	"id": "360000000000",
+	"jianpin": "jxs",
+	"level": 1,
+	"name": "江西省",
+	"pinyin": "jiangxisheng"
+}, {
+	"firstLetter": "s",
+	"id": "370000000000",
+	"jianpin": "sds",
+	"level": 1,
+	"name": "山东省",
+	"pinyin": "shandongsheng"
+}, {
+	"firstLetter": "h",
+	"id": "410000000000",
+	"jianpin": "hns",
+	"level": 1,
+	"name": "河南省",
+	"pinyin": "henansheng"
+}, {
+	"firstLetter": "h",
+	"id": "420000000000",
+	"jianpin": "hbs",
+	"level": 1,
+	"name": "湖北省",
+	"pinyin": "hubeisheng"
+}, {
+	"firstLetter": "h",
+	"id": "430000000000",
+	"jianpin": "hns",
+	"level": 1,
+	"name": "湖南省",
+	"pinyin": "hunansheng"
+}, {
+	"firstLetter": "g",
+	"id": "440000000000",
+	"jianpin": "gds",
+	"level": 1,
+	"name": "广东省",
+	"pinyin": "guangdongsheng"
+}, {
+	"firstLetter": "g",
+	"id": "450000000000",
+	"jianpin": "gxzzzzq",
+	"level": 1,
+	"name": "广西壮族自治区",
+	"pinyin": "guangxizhuangzuzizhiqu"
+}, {
+	"firstLetter": "h",
+	"id": "460000000000",
+	"jianpin": "hns",
+	"level": 1,
+	"name": "海南省",
+	"pinyin": "hainansheng"
+}, {
+	"firstLetter": "z",
+	"id": "500000000000",
+	"jianpin": "zqs",
+	"level": 1,
+	"name": "重庆市",
+	"pinyin": "zhongqingshi"
+}, {
+	"firstLetter": "s",
+	"id": "510000000000",
+	"jianpin": "scs",
+	"level": 1,
+	"name": "四川省",
+	"pinyin": "sichuansheng"
+}, {
+	"firstLetter": "g",
+	"id": "520000000000",
+	"jianpin": "gzs",
+	"level": 1,
+	"name": "贵州省",
+	"pinyin": "guizhousheng"
+}, {
+	"firstLetter": "y",
+	"id": "530000000000",
+	"jianpin": "yns",
+	"level": 1,
+	"name": "云南省",
+	"pinyin": "yunnansheng"
+}, {
+	"firstLetter": "x",
+	"id": "540000000000",
+	"jianpin": "xzzzq",
+	"level": 1,
+	"name": "西藏自治区",
+	"pinyin": "xizangzizhiqu"
+}, {
+	"firstLetter": "s",
+	"id": "610000000000",
+	"jianpin": "sxs",
+	"level": 1,
+	"name": "陕西省",
+	"pinyin": "shanxisheng"
+}, {
+	"firstLetter": "g",
+	"id": "620000000000",
+	"jianpin": "gss",
+	"level": 1,
+	"name": "甘肃省",
+	"pinyin": "gansusheng"
+}, {
+	"firstLetter": "q",
+	"id": "630000000000",
+	"jianpin": "qhs",
+	"level": 1,
+	"name": "青海省",
+	"pinyin": "qinghaisheng"
+}, {
+	"firstLetter": "n",
+	"id": "640000000000",
+	"jianpin": "nxhzzzq",
+	"level": 1,
+	"name": "宁夏回族自治区",
+	"pinyin": "ningxiahuizuzizhiqu"
+}, {
+	"firstLetter": "x",
+	"id": "650000000000",
+	"jianpin": "xjwwezzq",
+	"level": 1,
+	"name": "新疆维吾尔自治区",
+	"pinyin": "xinjiangweiwuerzizhiqu"
+}]
+
+export default provinceData;

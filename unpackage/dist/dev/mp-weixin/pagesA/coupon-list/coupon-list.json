@@ -1,0 +1,8 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "card-list": "/components/card-list/card-list",
+    "title": "/components/title/title",
+    "tabs": "/components/tabs/tabs"
+  }
+}

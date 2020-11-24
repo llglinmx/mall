@@ -1,0 +1,323 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页", //设置标题
+				"mp-weixin": {
+					"permission": {
+						"scope.userLocation": {
+							"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+						}
+					},
+					"disableScroll": true,
+					"navigationBarTextStyle": "white" //状态栏字体颜色
+				}
+			}
+		}, {
+			"path": "pages/sort/sort",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		},
+		{
+			"path": "pages/shopping/shopping",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}
+	],
+	// "plugins": {
+	// 	"live-player-plugin": {
+	// 		"version": "1.1.8",
+	// 		"provider": "wx2b03c6e691cd7370"
+	// 	}
+	// },
+	"subPackages": [
+	// 	{
+	// 	"plugins": {
+	// 		"live-player-plugin": {
+	// 			"version": "1.1.8",
+	// 			"provider": "wx2b03c6e691cd7370"
+	// 		}
+	// 	}
+	// }, 
+	{
+		"root": "pagesA",
+		"pages": [{
+				"path": "goods-details/goods-details",
+				"style": {
+					"mp-weixin": {
+						// "disableScroll": true
+					}
+				}
+			},
+			{
+				"path": "address-list/address-list",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "coupon-list/coupon-list",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "order/order",
+				"style": {
+
+				}
+			}, {
+				"path": "shopping-collect/shopping-collect",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "login/login",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "confirm-order/confirm-order",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "goods-list/goods-list",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}, {
+				"path": "apply-for-refund/apply-for-refund",
+				"style": {
+					"mp-weixin": {
+						"disableScroll": true
+					}
+				}
+			}
+		]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+			"path": "add-address/add-address",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "delivery-details/delivery-details",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "payment-details/payment-details",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "receiving-details/receiving-details",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "pay-success/pay-success",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "logistics-info/logistics-info",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "order-close-details/order-close-details",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "evaluate/evaluate",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "evaluation-list/evaluation-list",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		},
+		{
+			"path": "live/live",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}]
+	}, {
+		"root": "pagesC",
+		"pages": [{
+			"path": "ExtendHome/ExtendHome",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "address-page/address-page",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "QRcode/QRcode",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "search/search",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "PromotionTeam/PromotionTeam",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "RevenueRecords/RevenueRecords",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "Ranking/Ranking",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "CashOut/CashOut",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "CashSuccess/CashSuccess",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "CashRecord/CashRecord",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}, {
+			"path": "evaluate-success/evaluate-success",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				}
+			}
+		}]
+	}],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["pagesA"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom" // 去掉顶部导航
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"color": "#666", // 未选中时菜单颜色
+		"selectedColor": "#324B78", // 选中时菜单颜色
+		"backgroundColor": "#fff", //背景颜色
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/nav/home.png", // 图标
+				"selectedIconPath": "static/images/nav/home-active.png" // 选中之后的图标
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"text": "分类",
+				"iconPath": "static/images/nav/sort.png", // 图标
+				"selectedIconPath": "static/images/nav/sort-active.png" // 选中之后的图标
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "购物车",
+				"iconPath": "static/images/nav/shopping.png", // 图标
+				"selectedIconPath": "static/images/nav/shopping-active.png" // 选中之后的图标
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/images/nav/mine.png", // 图标
+				"selectedIconPath": "static/images/nav/mine-active.png" // 选中之后的图标
+			}
+		]
+	}
+}

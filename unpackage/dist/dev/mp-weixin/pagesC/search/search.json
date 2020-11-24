@@ -1,0 +1,8 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "search-input": "/components/search-input/search-input",
+    "search-records": "/components/search-records/search-records",
+    "title": "/components/title/title"
+  }
+}

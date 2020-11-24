@@ -1,0 +1,7 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "confirm-list": "/components/confirm-list/confirm-list",
+    "title": "/components/title/title"
+  }
+}

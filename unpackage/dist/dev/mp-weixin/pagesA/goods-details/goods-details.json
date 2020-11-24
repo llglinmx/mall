@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "popup-details": "/components/popup-details/popup-details",
+    "footer-shopping": "/components/add-shopping/add-shopping"
+  }
+}

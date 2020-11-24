@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pop-goods-details.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  max-height: 1200rpx;
+  min-height: 400rpx;
+  background: #fff;
+  border-radius: 12rpx 12rpx 0 0;
+}
+.pop-goods-details .pop-goods-head.data-v-472ca948 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding: 32rpx 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.pop-goods-details .pop-goods-head .pop-head-img.data-v-472ca948 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+.pop-goods-details .pop-goods-head .pop-head-img image.data-v-472ca948 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.pop-goods-details .pop-goods-head .pop-head-info.data-v-472ca948 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin: 0 20rpx 0 20rpx;
+}
+.pop-goods-details .pop-goods-head .pop-head-info .pop-head-info-price.data-v-472ca948 {
+  font-size: 24rpx;
+  line-height: 56rpx;
+  color: #c11b14;
+}
+.pop-goods-details .pop-goods-head .pop-head-info .pop-head-info-price text.data-v-472ca948 {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.pop-goods-details .pop-goods-head .pop-head-info .pop-head-info-stock.data-v-472ca948 {
+  font-size: 24rpx;
+  color: #999;
+}
+.pop-goods-details .pop-goods-head .pop-head-info .pop-head-info-title.data-v-472ca948 {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pop-goods-details .pop-goods-head .pop-head-close.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: absolute;
+  top: 32rpx;
+  right: 0;
+  width: 50rpx;
+  height: 50rpx;
+}
+.pop-goods-details .pop-goods-head .pop-head-close image.data-v-472ca948 {
+  width: 22rpx;
+  height: 22rpx;
+}
+.pop-goods-details .pop-goods-content.data-v-472ca948 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow-y: scroll;
+}
+.pop-goods-details .pop-goods-content .pop-goods-li .pop-content-title.data-v-472ca948 {
+  padding: 30rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #000;
+}
+.pop-goods-details .pop-goods-content .pop-goods-li .pop-content-box.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.pop-goods-details .pop-goods-content .pop-goods-li .pop-content-box .pop-content-box-li.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  max-width: 427rpx;
+  min-width: 94rpx;
+  height: 50rpx;
+  padding: 0 25rpx;
+  box-sizing: border-box;
+  margin: 0 20rpx 20rpx;
+  border: 1px solid #eee;
+  background: #eee;
+  border-radius: 50rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.pop-goods-details .pop-goods-content .pop-goods-li .pop-content-box .active.data-v-472ca948 {
+  color: #324B78 !important;
+  border: 1px solid #324B78 !important;
+  background: #dce5f5;
+}
+.pop-goods-details .pop-goods-footer.data-v-472ca948 {
+  padding: 30rpx 0;
+}
+.pop-goods-details .pop-goods-footer .pop-stepper-title.data-v-472ca948 {
+  font-size: 28rpx;
+  color: #000;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  height: 64rpx;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 128rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .active.data-v-472ca948 {
+  opacity: 0.5;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .stepper-reduce.data-v-472ca948,
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .stepper-add.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 36rpx;
+  height: 36rpx;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .stepper-reduce image.data-v-472ca948,
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .stepper-add image.data-v-472ca948 {
+  width: 100%;
+  height: 100%;
+}
+.pop-goods-details .pop-goods-footer .pop-goods-stepper .shopping-info-stepper .stepper-num.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #000;
+  font-size: 28rpx;
+  text-align: center;
+}
+.pop-goods-details .pop-goods-footer .pop-footer-btn.data-v-472ca948 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 650rpx;
+  height: 64rpx;
+  margin-top: 80rpx;
+  color: #fff;
+  background: #324B78;
+  font-size: 24rpx;
+  border-radius: 50rpx;
+}
+
